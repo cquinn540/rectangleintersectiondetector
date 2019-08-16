@@ -1,0 +1,41 @@
+Testing started at 2:18 PM ...
+/home/colin/uptycsinterview/bin/python /snap/pycharm-community/143/helpers/pycharm/_jb_unittest_runner.py --target rectangleintersectiontest.TestIntersectionDetectionFunctions
+Launching unittests with arguments python -m unittest rectangleintersectiontest.TestIntersectionDetectionFunctions in /home/colin/PycharmProjects/rectangleintersectiondetector/rectangletest
+
+test_intersect_no_collisions success:
+Results: [] Expected Results: []
+
+test_intersect_one_collision success:
+Results: [(-1, -3)] Expected Results: [(-1, -3)]
+
+test_intersect_two_collisions success:
+Results: [(3, 3), (5, 3)] Expected Results: [(3, 3), (5, 3)]
+
+test_rectangle_intersections_bottom_right success:
+Results: [(8, 6), (10, 4)] Expected Results: [(10, 4), (8, 6)]
+
+test_rectangle_intersections_left success:
+Results: [(10, 4), (10, 5)] Expected Results: [(10, 4), (10, 5)]
+
+test_rectangle_intersections_left_4_intersections success:
+Results: [(7, 6), (7, 10), (6, 6), (6, 10)] Expected Results: [(6, 6), (6, 10), (7, 6), (7, 10)]
+
+test_rectangle_intersections_no_intersections success:
+Results: 0 Expected Results: 0
+
+test_rectangle_intersections_top success:
+Results: [(6.5, 6), (8.5, 6)] Expected Results: [(6.5, 6), (8.5, 6)]
+
+test_rectangle_intersections_top_3_intersections success:
+Results: [(6.5, 6), (9, 6), (9, 7)] Expected Results: [(6.5, 6), (9, 6), (9, 7)]
+
+test_rectangle_same_rectangle success:
+Results: [(9, 6), (9, 10), (12, 6), (12, 10)] Expected Results: [(9, 6), (12, 6), (9, 10), (12, 10)]
+
+
+
+Ran 10 tests in 0.009s
+
+OK
+
+Process finished with exit code 0
